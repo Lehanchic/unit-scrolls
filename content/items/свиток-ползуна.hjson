@@ -1,0 +1,7 @@
+name: Свиток ползуна
+description: "позволяет создать ползуна с помощью этого свитка вместо кучи кремния и угля"
+explosiveness: 0
+flammability: 0.01
+radioactivity: 0
+color: B5B8B1
+cost: 1

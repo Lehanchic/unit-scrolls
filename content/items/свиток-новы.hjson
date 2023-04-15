@@ -1,0 +1,7 @@
+name: Свиток новы
+description: "позваляет создать нову с помощью этого свитка вместо кучи кремния, свинца и титана"
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+color: B5B8B1
+cost: 1

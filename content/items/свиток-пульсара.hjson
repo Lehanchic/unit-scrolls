@@ -1,0 +1,7 @@
+name: Свиток пульсара
+description: "позволяет создать пульсара с помощью этого свитка вместо кучи ресурсов"
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+color: B5B8B1
+cost: 1

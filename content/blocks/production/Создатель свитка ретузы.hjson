@@ -1,0 +1,49 @@
+{
+  "name": "Создатель Свитка Ретузы",
+  "health": 250,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/15",
+                "metaglass/25",
+                "titanium/20"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 8,
+      "usage": 4,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-ретузы",
+    "amount": 1
+  },
+  "description": "Создаёт свиток ретузы",
+  "size": 3,
+  "itemCapacity": 50,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 115
+    },
+    {
+      "item": "graphite",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+  ],
+  "type": "GenericCrafter"
+}

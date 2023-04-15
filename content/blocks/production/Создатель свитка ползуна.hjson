@@ -1,0 +1,48 @@
+{
+  "name": "Создатель Свитка Ползуна",
+  "health": 250,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/8",
+                "coal/10"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 8,
+      "usage": 4,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-ползуна",
+    "amount": 1
+  },
+  "description": "Создаёт свиток ползуна",
+  "size": 3,
+  "itemCapacity": 20,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 115
+    },
+    {
+      "item": "graphite",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+  ],
+  "type": "GenericCrafter"
+}

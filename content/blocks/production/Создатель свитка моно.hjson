@@ -1,0 +1,48 @@
+{
+  "name": "Создатель Свитка Моно",
+  "health": 250,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/30",
+                "lead/15"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 8,
+      "usage": 4,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-моно",
+    "amount": 1
+  },
+  "description": "Создаёт свиток моно",
+  "size": 3,
+  "itemCapacity": 10,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 115
+    },
+    {
+      "item": "graphite",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+  ],
+  "type": "GenericCrafter"
+}

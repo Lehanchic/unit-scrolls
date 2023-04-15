@@ -1,0 +1,49 @@
+{
+  "name": "Создатель Свитка Минке",
+  "health": 850,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/60",
+                "graphite/40",
+                "metaglass/35"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 10,
+      "usage": 6,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-минке",
+    "amount": 1
+  },
+  "description": "Создаёт свиток минке",
+  "size": 3,
+  "itemCapacity": 120,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 345
+    },
+    {
+      "item": "lead",
+      "amount": 285
+    },
+    {
+      "item": "graphite",
+      "amount": 165
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    }
+  ],
+  "type": "GenericCrafter"
+}

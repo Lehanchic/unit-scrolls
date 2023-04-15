@@ -1,0 +1,49 @@
+{
+  "name": "Создатель Свитка Булавы",
+  "health": 850,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/50",
+                "graphite/40"
+                "lead/10"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 100,
+      "usage": 6,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-булавы",
+    "amount": 1
+  },
+  "description": "Создаёт свиток булавы",
+  "size": 3,
+  "itemCapacity": 10,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 345
+    },
+    {
+      "item": "lead",
+      "amount": 285
+    },
+    {
+      "item": "graphite",
+      "amount": 165
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    }
+  ],
+  "type": "GenericCrafter"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Создатель Свитка Атракса",
+  "health": 850,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/48",
+                "graphite/40"
+                "coal/10"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 10,
+      "usage": 6,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-атракса",
+    "amount": 1
+  },
+  "description": "Создаёт свиток атракса",
+  "size": 3,
+  "itemCapacity": 150,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 345
+    },
+    {
+      "item": "lead",
+      "amount": 285
+    },
+    {
+      "item": "graphite",
+      "amount": 165
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    }
+  ],
+  "type": "GenericCrafter"
+}

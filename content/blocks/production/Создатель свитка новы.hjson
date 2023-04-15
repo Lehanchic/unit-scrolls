@@ -1,0 +1,49 @@
+{
+  "name": "Создатель Свитка Новы",
+  "health": 250,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/30",
+                "lead/20"
+                "titanium/20"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 8,
+      "usage": 4,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-новы",
+    "amount": 1
+  },
+  "description": "Создаёт свиток новы",
+  "size": 3,
+  "itemCapacity": 60,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 115
+    },
+    {
+      "item": "graphite",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+  ],
+  "type": "GenericCrafter"
+}

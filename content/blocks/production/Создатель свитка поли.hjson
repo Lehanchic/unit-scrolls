@@ -1,0 +1,49 @@
+{
+  "name": "Создатель Свитка Поли",
+  "health": 850,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/70",
+                "graphite/40",
+                "lead/15"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 10,
+      "usage": 6,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-поли",
+    "amount": 1
+  },
+  "description": "Создаёт свиток поли",
+  "size": 3,
+  "itemCapacity": 140,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 345
+    },
+    {
+      "item": "lead",
+      "amount": 285
+    },
+    {
+      "item": "graphite",
+      "amount": 165
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    }
+  ],
+  "type": "GenericCrafter"
+}

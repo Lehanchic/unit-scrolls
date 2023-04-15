@@ -1,0 +1,50 @@
+{
+  "name": "Создатель Свитка Оксино",
+  "health": 850,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/55",
+                "graphite/40",
+                "metaglass/25",
+                "titanium/20"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 10,
+      "usage": 6,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-оксино",
+    "amount": 1
+  },
+  "description": "Создаёт свиток оксино",
+  "size": 3,
+  "itemCapacity": 110,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 345
+    },
+    {
+      "item": "lead",
+      "amount": 285
+    },
+    {
+      "item": "graphite",
+      "amount": 165
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    }
+  ],
+  "type": "GenericCrafter"
+}

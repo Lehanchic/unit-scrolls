@@ -1,0 +1,44 @@
+{
+  "name": "Создатель Свитка Основы",
+  "health": 675,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "beryllium/40",
+                "silicon/50"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 8,
+      "usage": 4,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-основы",
+    "amount": 1
+  },
+  "description": "Создаёт свиток основы",
+  "size": 3,
+  "itemCapacity": 100,
+  "research": "silicon-arc-furnace",
+  "requirements": [
+    {
+      "item": "beryllium",
+      "amount": 120
+    },
+    {
+      "item": "graphite",
+      "amount": 115
+    },
+    {
+      "item": "silicon",
+      "amount": 75
+    }
+  ],
+  "type": "GenericCrafter"
+}

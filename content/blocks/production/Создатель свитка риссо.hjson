@@ -1,0 +1,48 @@
+{
+  "name": "Создатель Свитка Риссо",
+  "health": 250,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/20",
+                "metaglass/30"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 8,
+      "usage": 4,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-риссо",
+    "amount": 1
+  },
+  "description": "Создаёт свиток риссо",
+  "size": 3,
+  "itemCapacity": 60,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 115
+    },
+    {
+      "item": "graphite",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    }
+  ],
+  "type": "GenericCrafter"
+}

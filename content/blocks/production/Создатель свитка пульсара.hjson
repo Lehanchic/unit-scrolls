@@ -1,0 +1,50 @@
+{
+  "name": "Создатель Свитка Пульсара",
+  "health": 850,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/70",
+                "graphite/40",
+                "titanium/20",
+                "lead/20"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 10,
+      "usage": 6,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-пульсара",
+    "amount": 1
+  },
+  "description": "Создаёт свиток пульсара",
+  "size": 3,
+  "itemCapacity": 120,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 345
+    },
+    {
+      "item": "lead",
+      "amount": 285
+    },
+    {
+      "item": "graphite",
+      "amount": 165
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    }
+  ],
+  "type": "GenericCrafter"
+}

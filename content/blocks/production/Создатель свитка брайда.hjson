@@ -1,0 +1,54 @@
+{
+  "name": "Создатель Свитка Брайда",
+  "health": 1500,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/190",
+                "titanium/80",
+                "metaglass/75",
+                "graphite/40"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 14,
+      "usage": 7,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-брайда",
+    "amount": 1
+  },
+  "description": "Создаёт свиток брайда",
+  "size": 3,
+  "itemCapacity": 380,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 850
+    },
+{
+      "item": "thorium",
+      "amount": 350
+},
+{
+      "item": "titanium",
+      "amount": 200
+},
+    {
+      "item": "graphite",
+      "amount": 235
+    },
+    {
+      "item": "silicon",
+      "amount": 150
+    }
+  ],
+  "type": "GenericCrafter"
+}

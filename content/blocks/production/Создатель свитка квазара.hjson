@@ -1,0 +1,55 @@
+{
+  "name": "Создатель Свитка Квазара",
+  "health": 1500,
+  "category": "crafting",
+  "consumes":{
+    "items": {
+			"items": [
+                "silicon/200",
+                "titanium/100",
+                "metaglass/40",
+                "graphite/40",
+                "lead/20"
+    ]
+ }
+    "power":{
+      "buffered": false,
+      "capacity": 14,
+      "usage": 7,
+      "booster": false,
+      "optional": true,
+      "update": true
+    }
+  },
+  "outputItem":{
+    "item": "свиток-квазара",
+    "amount": 1
+  },
+  "description": "Создаёт свиток квазара",
+  "size": 3,
+  "itemCapacity": 400,
+  "research": "silicon-smelter",
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 850
+    },
+{
+      "item": "thorium",
+      "amount": 350
+},
+{
+      "item": "titanium",
+      "amount": 200
+},
+    {
+      "item": "graphite",
+      "amount": 235
+    },
+    {
+      "item": "silicon",
+      "amount": 150
+    }
+  ],
+  "type": "GenericCrafter"
+}

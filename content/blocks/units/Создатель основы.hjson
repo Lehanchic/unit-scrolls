@@ -1,0 +1,19 @@
+  "type": "unitFactory",
+  "name": "Создатель Основы",
+  "size": 3,
+  "plans": [
+    {
+      "unit": "stell",
+      "requirements": [
+        "свиток-основы/1"
+      ],
+      "time": 1600
+    },
+]
+  "requirements": [
+       "silicon/450"
+       "beryllium/350",
+       "graphite/50"
+]
+  "category": "units",
+  "research": "tank-fabricator"

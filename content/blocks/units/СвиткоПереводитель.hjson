@@ -1,0 +1,160 @@
+  "type": "unitFactory",
+  "name": "Свитко Переводитель",
+  "size": 3,
+  "plans": [
+    {
+      "unit": "dagger",
+      "requirements": [
+        "свиток-кинжала/1"
+      ],
+      "time": 450
+    },
+    {
+      "unit": "crawler",
+      "requirements": [
+        "свиток-ползуна/1"
+      ],
+      "time": 350
+    },
+    {
+      "unit": "nova",
+      "requirements": [
+        "свиток-новы/1"
+      ],
+      "time": 1800
+    },
+    {
+      "unit": "pulsar",
+      "requirements": [
+        "свиток-пульсара/1"
+      ],
+      "time": 2850
+    },
+    {
+      "unit": "mace",
+      "requirements": [
+        "свиток-булавы/1"
+      ],
+      "time": 1300
+    },
+    {
+      "unit": "atrax",
+      "requirements": [
+        "свиток-атракса/1"
+      ],
+      "time": 1000
+    },
+    {
+      "unit": "fortress",
+      "requirements": [
+        "свиток-крепости/1"
+      ],
+      "time": 3060
+    },
+    {
+      "unit": "quasar",
+      "requirements": [
+        "свиток-квазара/1"
+      ],
+      "time": 4140
+    },
+    {
+      "unit": "spiroct",
+      "requirements": [
+        "свиток-спайрокта/1"
+      ],
+      "time": 2700
+    },
+    {
+      "unit": "flare",
+      "requirements": [
+        "свиток-вспышки/1"
+      ],
+      "time": 765
+    },
+    {
+      "unit": "mono",
+      "requirements": [
+        "свиток-моно/1"
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "horizon",
+      "requirements": [
+        "свиток-горизонта/1"
+      ],
+      "time": 1400
+    },
+    {
+      "unit": "poly",
+      "requirements": [
+        "свиток-поли/1"
+      ],
+      "time": 2500
+    },
+    {
+      "unit": "zenith",
+      "requirements": [
+        "свиток-зенита/1"
+      ],
+      "time": 3200
+    },
+    {
+      "unit": "mega",
+      "requirements": [
+        "свиток-меги/1"
+      ],
+      "time": 4300
+    },
+    {
+      "unit": "risso",
+      "requirements": [
+        "свиток-риссо/1"
+      ],
+      "time": 2500
+    },
+    {
+      "unit": "retusa",
+      "requirements": [
+        "свиток-ретузы/1"
+      ],
+      "time": 2750
+    },
+    {
+      "unit": "minke",
+      "requirements": [
+        "свиток-минке/1"
+      ],
+      "time": 3200
+    },
+    {
+      "unit": "oxynoe",
+      "requirements": [
+        "свиток-оксино/1"
+      ],
+      "time": 3500
+    },
+    {
+      "unit": "bryde",
+      "requirements": [
+        "свиток-брайда/1"
+      ],
+      "time": 4930
+    },
+    {
+      "unit": "cyerce",
+      "requirements": [
+        "свиток-цирса/1"
+      ],
+      "time": 5000
+    },
+]
+  "requirements": [
+       "copper/365",
+       "lead/275",
+       "graphite/200",
+       "silicon/100"
+]
+  "category": "units",
+  "research": "ground-factory"
